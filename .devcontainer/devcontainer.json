@@ -6,7 +6,7 @@
             "version": "latest"
         }
     },
-    "postStartCommand": "REPO_NAME=$(SPARROW$(git rev-parse --show-toplevel)); python3 /workspaces/$SPARROW/LX.py",
+    "postStartCommand": "REPO_NAME=$(Sparrow $(git rev-parse --show-toplevel)); python3 /workspaces/$Sparrow/laila.py",
     "customizations": {
         "vscode": {
             "settings": {
